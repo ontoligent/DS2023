@@ -1,0 +1,50 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+
+version: 1
+
+project:
+  id: b3c97b7c-e599-46f7-ba6c-5891336c96ea
+  # title: "DS 2023: Communicating with Data" 
+  # keywords: []
+  # authors: ['R.C. Alvarado']
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: pub/index.md
+    - title: Unit 1 Introduction
+      children:
+      - file: pub/lessons/Unit 01 Preliminaries/01 Introduction.md
+      - file: pub/lessons/Unit 01 Preliminaries/02 Setting Up.md
+    - title: Unit 2 On Data
+      children:
+      - file: pub/lessons/Unit 02 Data/03 Pandas.md
+      - file: pub/lessons/Unit 02 Data/04 On Data.md
+      - file: pub/lessons/Unit 02 Data/05 Data Types.md
+      - file: pub/lessons/Unit 02 Data/06 Scales of Measurement.md
+      - file: pub/lessons/Unit 02 Data/07 Tidy Data.md
+      - file: pub/lessons/Unit 02 Data/08 Wide Data.md
+    - title: Unit 3 Plotting
+      children:
+      - file: pub/lessons/Unit 03 Basic Plots/09 Plotting.md
+      - file: pub/lessons/Unit 03 Basic Plots/10 Bar Charts.ipynb
+      - file: pub/lessons/Unit 03 Basic Plots/11 Pie Charts.ipynb
+      - file: pub/lessons/Unit 03 Basic Plots/12 Line Graphs.ipynb
+
+
+site:
+  template: book-theme
+  # title: "DS 2023: Communicating with Data"
+  subtitle: "A Computational Approach"
+  logo_text: "DS 2023: Communicating with Data"
+  options:
+    banner: false
+    # url: https://multepal.github.io
+    # baseurl: /pv-narrative
+  parts:
+    primary_sidebar_footer: |
+      Your custom text here.
+      Made with [Jupyter Book](https://jupyterbook.org)
+
+
+nb:
+  render_ipywidgets: true

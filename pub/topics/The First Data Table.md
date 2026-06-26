@@ -1,0 +1,8 @@
+---
+title: The First Data Table
+type: topic
+publish: true
+---
+![[Pasted image 20260616153734.png]]
+
+> The first securely datable mathematical table in world history comes from the Sumerian city of [Shuruppag![Offsite Link](https://www.historyofinformation.com/assets/ic-offsite.png)](https://en.wikipedia.org/wiki/Shuruppak), c. 2600 BCE. The table is ruled into three columns on each side with ten rows on the front or obverse side. The first columns of the obverse list length measures from c. 3.6km to 360 m in descending units of 360 m, followed by the Sumerian word sa ('equal' and/ or 'opposite') while the final column gives their products in area measure. Only six rows are extant or partially preserved on the reverse. They continue the table in smaller units, from 300 to 60 m in 60 m steps, and then perhaps (in the damaged and missing lower half) from 56 to 6 m in 6 m steps. While the table is organized along two axes, there is just one axis of calculation, namely, the horizontal multiplications. Around a thousand tablets were excavated from Shuruppaq, almost all of them from houses and buildings which burned down in a city-wide fire in about 2600 BCE, but sadly we have no detailed context for this table because its excavation number was lost or never recorded." — Eleanor Robson, "Tables and tabular formatting in Sumer, Babylonia, and Assyria, 2500 BCE-50," Campbell-Kelly _et al_ \[eds\]. _The History of Mathematical Tables from Sumer to Spreadsheets_ \[2003\] 27-29).
