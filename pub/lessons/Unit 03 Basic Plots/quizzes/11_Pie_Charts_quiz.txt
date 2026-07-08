@@ -1,0 +1,38 @@
+Quiz title: Pie Charts
+Quiz description: A short quiz on the Pie Charts notebook (DS 2023 | Communicating with Data).
+
+1. What does the entire circle of a pie chart represent?
+a) The average of the numeric feature
+*b) The sum total of the numeric feature's values
+c) The number of categories
+d) The maximum value in the data
+
+2. Pie charts are best suited for categorical features whose values are:
+a) Continuous and unbounded
+*b) Disjoint, exhaustive, and relatively few in number
+c) Ordered on a ratio scale
+d) Unique to each observation
+
+3. In the notebook, what does "disjoint" mean when describing categories suitable for a pie chart?
+*a) An observation can have only one category value
+b) Every category must appear at least once
+c) The categories must be numeric
+d) The categories cannot overlap in color
+
+4. Which argument labels each slice with its percentage of the whole?
+*a) autopct
+b) explode
+c) startangle
+d) subplots
+
+5. What does the `explode` argument do to a pie chart?
+a) Splits the pie into subplots
+*b) Pulls one or more slices out from the center for emphasis
+c) Rotates the pie to a given angle
+d) Adds percentage labels to each slice
+
+6. According to the notebook, what happens to a pie chart's usefulness as the number of categories increases, and what is recommended instead?
+a) It improves; keep using a pie chart
+*b) It becomes less useful, so a bar chart is often better
+c) It stays the same; add more colors
+d) It becomes less useful, so a line graph is recommended

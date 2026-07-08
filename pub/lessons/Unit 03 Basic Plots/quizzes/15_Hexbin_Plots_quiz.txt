@@ -1,0 +1,38 @@
+Quiz title: Hexbin Plots
+Quiz description: A short quiz on the Hexbin Plots notebook (DS 2023 | Communicating with Data).
+
+1. What limitation of scatter plots do hexbin plots address?
+a) They cannot show more than two variables
+*b) Occlusion — data points hiding other data points at the same location
+c) They cannot display negative values
+d) They require categorical data
+
+2. In graphics terms, what does the `alpha` parameter control?
+a) The size of each point
+*b) The color opacity of a visual element
+c) The number of bins
+d) The color map
+
+3. With a low alpha value, why do overlapping points appear darker?
+*a) The colors of overlapping data points add up
+b) Pandas increases the point size automatically
+c) The background is lightened
+d) The points are outlined in black
+
+4. How does a hexbin plot represent data density?
+a) By drawing a regression line through the densest region
+*b) By dividing the space into hexagonal cells shaded by the number of points in each
+c) By resizing each dot by its neighbors
+d) By stacking areas on top of each other
+
+5. What does the `gridsize` argument control in a hexbin plot?
+a) The overall figure size
+*b) The number/size of the hexagonal cells dividing the space
+c) The color opacity
+d) The number of subplots
+
+6. The resulting shaded hexbin image is described as a kind of what?
+a) Scatter matrix
+*b) Heatmap
+c) Area chart
+d) Box plot

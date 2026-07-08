@@ -1,0 +1,38 @@
+Quiz title: Scatter Plots
+Quiz description: A short quiz on the Scatter Plots notebook (DS 2023 | Communicating with Data).
+
+1. A scatter plot uses dots to represent the values of how many numeric variables?
+a) One
+*b) Two
+c) Three
+d) Four
+
+2. In a scatter plot, what does each individual dot represent?
+a) A category
+*b) An observation (a row of data)
+c) A column of data
+d) An aggregate value
+
+3. Which of the following is NOT listed as something scatter plots help identify?
+a) Relationships and correlation
+b) Clusters
+c) Outliers
+*d) Parts of a whole
+
+4. In the Penguins example, which parameter is used to map a categorical feature (species) onto color?
+*a) c
+b) s
+c) alpha
+d) kind
+
+5. In the notebook, what does the `s` argument encode when set from `body_mass_g`?
+a) The color of each dot
+*b) The size of each dot
+c) The shape of each dot
+d) The transparency of each dot
+
+6. How is a regression line added to the tips scatter plot?
+a) By setting kind='reg' in plot.scatter
+*b) By using np.polyfit to compute slope and intercept, then plotting y = m*x + b
+c) By calling sns.regline()
+d) By setting the alpha parameter
