@@ -1,4 +1,0 @@
----
-type: lesson
-publish: true
----

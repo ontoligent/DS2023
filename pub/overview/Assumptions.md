@@ -1,5 +1,0 @@
-- Media fluency considered essential
-	- Build first, theorize later
-	- Hore hack, less yak
-- Non-exhaustive; instead focus on fundamentals
-- Python

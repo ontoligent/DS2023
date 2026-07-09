@@ -1,5 +1,0 @@
-- The data
-- The question
-- The audience
-- Expressiveness
-- Effectiveness
