@@ -32,9 +32,6 @@
     <loc>http://localhost:3000/wide-data</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/plotting</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/bar-charts</loc>
   </url>
   <url>
@@ -60,5 +57,11 @@
   </url>
   <url>
     <loc>http://localhost:3000/box-plots</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/qq-plots</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/horizontal-barchart-distribution</loc>
   </url>
 </urlset>
