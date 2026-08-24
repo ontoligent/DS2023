@@ -5,6 +5,9 @@
     <loc>http://localhost:3000</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/preface</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/introduction</loc>
   </url>
   <url>
@@ -32,7 +35,58 @@
     <loc>http://localhost:3000/wide-data</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/plotting</loc>
+    <loc>http://localhost:3000/sns-datasets</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/anscombe</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/attention</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/brain-networks</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/car-crashes</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/diamonds</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/dowjones</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/exercise</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/geyser</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/healthexp</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/iris</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/mpg</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/penguins</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/planets</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/seaice</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/taxis</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/tips</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/titanic</loc>
   </url>
   <url>
     <loc>http://localhost:3000/bar-charts</loc>
@@ -60,5 +114,11 @@
   </url>
   <url>
     <loc>http://localhost:3000/box-plots</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/qq-plots</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/horizontal-barchart-distribution</loc>
   </url>
 </urlset>
