@@ -1,0 +1,44 @@
+h1 {
+    font-size: 20px !important;
+}
+
+h2 {
+    /* font-family: Garamond, Baskerville, serif; */
+    font-size: 18px !important;
+    padding-top: .5rem;
+    /* margin-top: .5rem; */
+    border-top: .5px solid lightgray;
+}
+
+h3 {
+    font-size: 16px !important;
+}
+
+.myst-fm-block-subtitle {
+    font-size: 13.5pt !important;
+}
+
+/* Expand main container width */
+main.content, .bd-main .bd-content .bd-article-container {
+  /* max-width: 95% !important; */
+}
+
+/* Reduce vertical padding */
+.cell, .tag_input {
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
+}
+
+.myst-primary-sidebar-footer p {
+    font-size: 90%;
+}
+
+.bourdieu, .bourdieu p {
+    font-family: serif;
+    margin: 2rem;
+    /* font-size: 95%; */
+}
+
+.figure {
+    font-size: 95%;
+}
