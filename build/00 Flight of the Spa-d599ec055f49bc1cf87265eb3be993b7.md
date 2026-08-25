@@ -1,16 +1,21 @@
----
-title: The Flight of a Swallow
-layout: landing
----
-> Let us take any graphical curve, that, for example, of criminal recidivists for the last fifty years. If its physiognomy is unlike that of the human face, is it not, at least, like the silhouette of hills and vales, or, since it is a question of movement,—for in statistics we speak quite properly of the movement of criminality, of birth or marriage rates,—like the sinuous lines, the sharp rises and sudden falls, in the flight of a swallow? . . . Why should the statistical diagrams that are gradually traced out on this paper from accumulations of successive crimes and misdemeanours—whose records are transmitted in official reports to the government, from the government in annual returns to the bureau of statistics at Paris and from this bureau, in blue books, to the magistrates of the different tribunals—why should these silhouettes, which likewise give visible expression to masses or series of co-existent or successive facts, be the only ones to be taken as symbolical, whereas the line traced on my retina by the flight of a swallow is deemed an inherent reality in the being which it expresses and which essentially consists, it seems to me, of moving figures, of movements in an imaginary space? Is there really less symbolism in one case than in the other? Is not my retinal image, the curve traced on my retina by the flight of this swallow, merely the expression of a mass of facts (the different states of the bird) which we have not the slightest reason in the world to consider as analogous to our visual impression?
-> — Gabrielle Tarde, 1890, “Statistics and Archaeology,” <i>The Laws of Imitation</i>, <a href="https://archive.org/details/bwb_P9-DIS-834/page/n3/mode/2up">Internet Arhive</a>.
+# The Flight of a Swallow
+
+
+:::{.bourdieu}
+Let us take any graphical curve, that, for example, of criminal recidivists for the last fifty years. If its physiognomy is unlike that of the human face, is it not, at least, like the silhouette of hills and vales, or, since it is a question of movement,—for in statistics we speak quite properly of the movement of criminality, of birth or marriage rates,—like the sinuous lines, the sharp rises and sudden falls, in the flight of a swallow? . . . Why should the statistical diagrams that are gradually traced out on this paper from accumulations of successive crimes and misdemeanours—whose records are transmitted in official reports to the government, from the government in annual returns to the bureau of statistics at Paris and from this bureau, in blue books, to the magistrates of the different tribunals—why should these silhouettes, which likewise give visible expression to masses or series of co-existent or successive facts, be the only ones to be taken as symbolical, whereas the line traced on my retina by the flight of a swallow is deemed an inherent reality in the being which it expresses and which essentially consists, it seems to me, of moving figures, of movements in an imaginary space? Is there really less symbolism in one case than in the other? Is not my retinal image, the curve traced on my retina by the flight of this swallow, merely the expression of a mass of facts (the different states of the bird) which we have not the slightest reason in the world to consider as analogous to our visual impression?
+
+— Gabrielle Tarde, 1890, “Statistics and Archaeology,” <i>The Laws of Imitation</i>, <a href="https://archive.org/details/bwb_P9-DIS-834/page/n3/mode/2up">Internet Arhive</a>.
+
+:::
 
 ![](../../images/flight-of-the-swallow.png)
 
 Consider the passage and painting above.
+
 The passage is by the French sociologist Gabriele Tarde (1843-1904) from an essay written at a time when the value of data for the social sciences was just being discovered. He is making the point that the patterns surfaced by the visualization of data are fundamentally the same as the patterns we perceive with our senses. The graph he had in mind is something like the one below.
-![]
+
 :::{figure} ../../images/linly_1160-641X_1881_num_1_1_T1_0060_0001_1.png 
+:::
 
 Lacassagne, Alexandre. 1881. “Marche de la criminalité en France depuis 1825 jusqu’en 1880.” <i>Publications de la Société Linnéenne de Lyon 1</i> (1): 48–72. https://doi.org/10.3406/linly.1881.11441. 
 
