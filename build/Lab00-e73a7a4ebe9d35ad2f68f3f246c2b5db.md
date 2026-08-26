@@ -179,6 +179,7 @@ conda create -n ds2023 -c conda-forge python=3.12 \
   "nbconvert>=7.17" \
   "numpy>=2.5" \
   "pandas>=3.0" \
+  "plotly>=6.8.0" \
   "scikit-learn>=1.9" \
   "scipy>=1.18" \
   "seaborn>=0.13" \
@@ -277,15 +278,35 @@ print("My course directory:", os.getcwd())
 print("Python:", sys.version)
 
 # Print versions of required libraries
-required = "ipykernel IPython ipywidgets jupyterlab matplotlib nbconvert numpy pandas sklearn scipy seaborn statsmodels".split()
+required = "ipykernel IPython ipywidgets jupyterlab matplotlib nbconvert numpy pandas plotly sklearn scipy seaborn statsmodels".split()
 for req in required:
     module = importlib.import_module(req)
     print(f"{req}:", module.__version__)
 ```   
 5. Run the cell.
-4. Inspect the results and make sure it prints without error.
-5. Make sure you course directory path displays.
-6. Inspect the output to verify the versions of Python and the installed libraries.
+6. Inspect the results and make sure it prints without error. You should see something like this:
+```
+My course directory: /Users/rca2t/Documents/Courses/DS2023/ds2023
+--------------------------------------------------------------------------------
+Python: 3.12.14 | packaged by conda-forge | (main, Aug 21 2026, 22:39:36) [Clang 19.1.7 ]
+ipykernel: 7.3.0
+IPython: 9.16.1
+ipywidgets: 8.1.9
+jupyterlab: 4.6.3
+matplotlib: 3.11.1
+nbconvert: 7.17.1
+numpy: 2.5.2
+pandas: 3.0.5
+plotly: 6.9.0
+sklearn: 1.9.0
+scipy: 1.18.0
+seaborn: 0.13.2
+statsmodels: 0.14.6
+--------------------------------------------------------------------------------
+All done.
+```
+7. Make sure you course directory path displays.
+8. Inspect the output to verify the versions of Python and the installed libraries. 
 
 ## Submit For Credit
 
