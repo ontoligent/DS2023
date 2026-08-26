@@ -5,66 +5,6 @@
     <loc>http://localhost:3000</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/flight-of-the-sparrow</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/lab00</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/pandas</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/on-data</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/data-types</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/scales-of-measurement</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/tidy-data</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/wide-data</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/bar-charts</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/pie-charts</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/line-graphs</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/area-charts</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/scatter-plots</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/hexbin-plots</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/histograms</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/density-plots</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/box-plots</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/qq-plots</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/horizontal-barchart-distribution</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/dendrograms</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/heatmaps</loc>
   </url>
 </urlset>
