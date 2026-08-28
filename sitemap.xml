@@ -10,10 +10,4 @@
   <url>
     <loc>http://localhost:3000/understandingjupyter</loc>
   </url>
-  <url>
-    <loc>http://localhost:3000/fromstatementstotables</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/datatypesusesscales</loc>
-  </url>
 </urlset>
