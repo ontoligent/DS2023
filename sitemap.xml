@@ -11,6 +11,9 @@
     <loc>http://localhost:3000/lab0-help</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/vscode-venv</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/understandingjupyter</loc>
   </url>
   <url>
