@@ -19,4 +19,10 @@
   <url>
     <loc>http://localhost:3000/m02-01-fromstatementstotables</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/m02-02-tidydata</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/m02-03-aggregatingtables</loc>
+  </url>
 </urlset>
