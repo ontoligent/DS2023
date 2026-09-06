@@ -31,4 +31,22 @@
   <url>
     <loc>http://localhost:3000/m02-04-pandasbasics</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/bar-charts</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/pie-charts</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/line-graphs</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/area-charts</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/scatter-plots</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/hexbin-plots</loc>
+  </url>
 </urlset>
