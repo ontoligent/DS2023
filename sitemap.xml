@@ -52,4 +52,16 @@
   <url>
     <loc>http://localhost:3000/hexbin-plots</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/histograms</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/density-plots</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/box-plots</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/qq-plots</loc>
+  </url>
 </urlset>
