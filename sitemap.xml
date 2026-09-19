@@ -56,7 +56,7 @@
     <loc>http://localhost:3000/logarithmic-axes</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/histograms</loc>
+    <loc>http://localhost:3000/histograms-v1</loc>
   </url>
   <url>
     <loc>http://localhost:3000/density-plots</loc>
