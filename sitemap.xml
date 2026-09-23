@@ -29,6 +29,9 @@
     <loc>http://localhost:3000/m02-03a-twowaystowide</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/m02-03b-widewithoutaggregating</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/m02-04-pandasbasics</loc>
   </url>
   <url>
