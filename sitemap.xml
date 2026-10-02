@@ -73,4 +73,10 @@
   <url>
     <loc>http://localhost:3000/seaborn</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/colormaps</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/heatmaps</loc>
+  </url>
 </urlset>
