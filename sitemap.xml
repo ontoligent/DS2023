@@ -59,6 +59,9 @@
     <loc>http://localhost:3000/logarithmic-axes</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/stats-primer-synthetic</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/histograms</loc>
   </url>
   <url>
