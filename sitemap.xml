@@ -82,4 +82,7 @@
   <url>
     <loc>http://localhost:3000/alluvial-diagrams</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/myst-setup-guide</loc>
+  </url>
 </urlset>
