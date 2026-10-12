@@ -88,4 +88,10 @@
   <url>
     <loc>http://localhost:3000/networks</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/annotations</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/fstrings</loc>
+  </url>
 </urlset>
