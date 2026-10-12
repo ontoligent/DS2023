@@ -88,7 +88,4 @@
   <url>
     <loc>http://localhost:3000/networks</loc>
   </url>
-  <url>
-    <loc>http://localhost:3000/myst-setup-guide</loc>
-  </url>
 </urlset>
