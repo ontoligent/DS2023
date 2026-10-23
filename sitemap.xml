@@ -109,4 +109,7 @@
   <url>
     <loc>http://localhost:3000/penguins-dashboard</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/finalprojectoverview</loc>
+  </url>
 </urlset>
