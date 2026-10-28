@@ -116,9 +116,6 @@
     <loc>http://localhost:3000/visualization-vocabulary</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/edatodashboard</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/amar-2005-taxonomy-ds</loc>
   </url>
 </urlset>
