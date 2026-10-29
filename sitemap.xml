@@ -118,4 +118,13 @@
   <url>
     <loc>http://localhost:3000/amar-2005-taxonomy-ds</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/student-vocabularies-consolidated</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/student-vocabularies-ontology</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/trails-and-dashboard-design</loc>
+  </url>
 </urlset>

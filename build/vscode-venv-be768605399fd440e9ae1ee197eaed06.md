@@ -1,4 +1,7 @@
-# Installing a Virtual Environment with VS Code
+---
+title: "Installing a Virtual Environment with VS Code"
+subtitle: "DS 2023 | Communicating with Data"
+---
 
 This page tells you have to install a virtual enviroment in VS Code without using Conda.
 
