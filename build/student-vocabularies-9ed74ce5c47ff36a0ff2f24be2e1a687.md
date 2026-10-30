@@ -1,22 +1,42 @@
 ---
-title: Ontological Assessment of Student Visualization Vocabulary
+title: An Ontology for Task Abstraction Vocabularies
 subtitle: DS 2023 | Communicating with Data
 ---
 
 ## Overview
 
-Each term is assessed for **ontological level**:
+This notebook proposes a set of **categories to classify action vocabularies** used in task abstraction.
 
-- **Atomic** — maps to one or a few specific function calls; a single, unambiguous operation.
-- **Compound** — composed of multiple atomic operations; requires a sequence of steps.
-- **Abstract** — describes an intent or design principle; no direct translation to a tool operation.
-- **Meta** — describes the analyst's role or epistemic process; not a data or visual operation at all.
+A set of catgories constitutes an **ontology** if they collectively define the various modes of existence for a collection of related things. For example, we may want to distinguish between things that are real or imaginary, concrete or abstract, mental or material, etc. 
+
+The need for such an ontology follows from the fact that **existing vocabularies reflect different levels of description**, ranging from specific and concrete actions to more general ones. Existing classificaiton by **intent** are useful but orthogonal to the task of differentiating between actions that are general and specific.
+
+In addition, current vocabularies, taken as whole, do not compose a complete set of terms to fully describe the process of data exploration and visualization.
+
+The following ontology is proposed as a simple partitioning of the space of actions in order to facilitate the process of converting actions into artifacts for visualization, e.g. dashboards and infographics.
+
+```{note}
+The ontology presented here is based on summarizing a collection of vocabulary terms proposed by students in UVA's DS 2023 course, Communicating with Data.
+```
+
+## The categories
+
+Based on a review of a [consolidated list of vocabulary terms](student-vocabularies-consolidated.md), we propose the following four categories:
+
+- **Atomic**: Maps to one or a few specific function calls; a single, unambiguous operation.
+- **Compound**: Composed of multiple atomic operations; requires a sequence of steps.
+- **Abstract**: Describes an intent or design principle; no direct translation to a tool operation.
+- **Meta**: Describes the analyst's role or process; not a data or visual operation at all.
+
+Each term refers to an ontological level, ranging from the **concrete and specific** to the **abstract and general**.
 
 Terms assessed as Abstract or Meta are not directly *executable*; they describe goals that must be decomposed into atomic or compound operations before a tool can be chosen.
 
----
+Based on these levels, we reproduce the vocabulary described in the previous notebook as follows.
 
-## 1. Data Preparation
+## The revised list
+
+### 1. Data Preparation
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -38,9 +58,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Bin | Group a continuous variable into discrete intervals | Atomic | `pd.cut()`; `pd.qcut()` |
 | Reduce | Project high-dimensional data into fewer dimensions for visualization or modeling | Atomic | `sklearn.decomposition.PCA`; `sklearn.manifold.TSNE`; `umap.UMAP` |
 
----
-
-## 2. Summarization & Aggregation
+### 2. Summarization & Aggregation
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -53,9 +71,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Apply linear regression | Fit a line to quantify direction and strength of a trend | Atomic | `sklearn.linear_model.LinearRegression`; `statsmodels.formula.api.ols()` |
 | Transform (Statistical) | Compute a visualization-specific summary within the render step (binning, smoothing, confidence intervals) | Atomic | `sns.histplot()`; `sns.kdeplot()`; `sns.regplot()`; `sns.boxplot()` — *Added from 53 Visualization Vocabulary.ipynb* |
 
----
-
-## 3. Distribution & Shape
+### 3. Distribution & Shape
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -63,18 +79,14 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Determine Range | Identify min/max values; enumerate unique categorical values | Atomic | `s.min()`; `s.max()`; `s.unique()`; `s.nunique()` |
 | Distribute | Show how values are spread across observations or space | Abstract | Ambiguous; could mean `sns.histplot()`, spatial `geopandas`, or layout spacing |
 
----
-
-## 4. Ordering & Ranking
+### 4. Ordering & Ranking
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
 | Rank | Assign a relative position to each observation based on a variable | Atomic | `s.rank()`; `df.sort_values()` with positional index |
 | Reorder | Change the sequence of categories or observations to reveal a pattern | Atomic | `df.sort_values()`; `pd.Categorical(categories=ordered_list, ordered=True)` |
 
----
-
-## 5. Comparison
+### 5. Comparison
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -86,9 +98,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Differentiate | Identify the specific features that distinguish one group from another | Abstract | Compound process; typically multiple grouped comparisons |
 | Define Precision | Represent values with enough accuracy to support meaningful comparison | Abstract | Design decision; no direct tool equivalent |
 
----
-
-## 6. Part-Whole Decomposition
+### 6. Part-Whole Decomposition
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -98,9 +108,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Show Volume | Represent the cumulative or total magnitude of a quantity | Atomic | `plt.fill_between()`; `sns.lineplot(fill=True)`; area charts in `plotly` |
 | Apportion | Allocate a total into proportional shares | Atomic | `s / s.sum()`; overlaps with Show Proportion |
 
----
-
-## 7. Relationship & Correlation
+### 7. Relationship & Correlation
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -112,9 +120,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Relate | Show the association between two variables | Abstract | Overlaps with Correlate and Co-vary; too broad without further specification |
 | Trends | Identify a directional pattern across a variable or over time | Abstract | Could be `sns.regplot()`, `sns.lineplot()`, or time-series decomposition via `statsmodels.tsa` |
 
----
-
-## 8. Temporal Analysis
+### 8. Temporal Analysis
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -127,9 +133,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Resample | Change the temporal resolution of time-series data | Atomic | `df.resample('ME').mean()`; `df.resample('W').sum()` |
 | Decompose | Separate a time series into trend, seasonal, and residual components | Atomic | `statsmodels.tsa.seasonal.seasonal_decompose()`; `statsmodels.tsa.stl.STL()` |
 
----
-
-## 9. Anomaly & Extremum Detection
+### 9. Anomaly & Extremum Detection
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -137,9 +141,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Find Anomalies | Identify observations with unexpected or exceptional values | Compound | IQR rule with `df.loc[]`; `scipy.stats.zscore()`; `sklearn.ensemble.IsolationForest` |
 | Eliminate | Remove or flag outliers or values that distort the analysis | Atomic | `df.loc[condition]`; `s.clip(lower, upper)`; `df.drop()` |
 
----
-
-## 10. Filtering & Selection
+### 10. Filtering & Selection
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -151,9 +153,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Select | Project to a subset of columns | Atomic | `df[['col1', 'col2']]`; `df.loc[:, cols]`; `df.filter(items=)` — *Added from 53 Visualization Vocabulary.ipynb* |
 | Retrieve Value | Given specific observations, look up the values of specified variables | Atomic | `df.loc[row_labels, col_labels]`; `df.at[]`; `df.iat[]` — *Added from Amar et al. (2005) via 53 Visualization Vocabulary.ipynb* |
 
----
-
-## 11. Visual Layout
+### 11. Visual Layout
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -168,9 +168,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Size Proportionally | Scale visual marks in direct proportion to data values | Atomic | `plt.scatter(s=values)`; `plotly.express.scatter(size=col)` |
 | Layer | Superimpose multiple geometric marks on the same axes | Atomic | Multiple calls on the same `ax`; e.g. `sns.scatterplot()` + `sns.regplot(scatter=False)` — *Added from 53 Visualization Vocabulary.ipynb* |
 
----
-
-## 12. Visual Encoding
+### 12. Visual Encoding
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -190,9 +188,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Style | Set the aesthetic properties of marks — line dash, marker shape, opacity | Atomic | `linestyle='--'`; `marker='o'`; `alpha=0.5`; `style=` kwarg in seaborn |
 | Legend | Place and configure the chart legend | Atomic | `ax.legend(loc=, title=)`; `ax.get_legend().remove()`; `plt.legend(handles=, labels=)` |
 
----
-
-## 13. Communication & Narrative
+### 13. Communication & Narrative
 
 *Most terms in this category are Abstract or Meta — they describe design goals and rhetorical intent, not executable operations.*
 
@@ -216,9 +212,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Display          | Present data in a visual form                               | Abstract | Essentially every plotting call; too broad to map to one tool         |
 | Encompassing     | Capture as many relevant facets of the data as possible     | Abstract | Design decision                                                       |
 
----
-
-## 14. Exploration & Inference
+### 14. Exploration & Inference
 
 | Term | Definition | Level | Tools |
 |------|-----------|-------|-------|
@@ -229,9 +223,7 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Develop | Build understanding iteratively through exploration | Meta | No tool equivalent |
 | Solve | Use a visualization to answer a specific analytical question | Meta | No tool equivalent |
 
----
-
-## 15. Analyst Process (Clinical Analogy)
+### 15. Analyst Process (Clinical Analogy)
 
 *All terms are Meta-level — they describe the analyst's epistemic stance and role, not operations on data.*
 
@@ -248,8 +240,6 @@ Terms assessed as Abstract or Meta are not directly *executable*; they describe 
 | Relayed | Communicated findings to another party | Meta | No tool equivalent |
 | Elicits | Draws a response or insight from the viewer | Meta | No tool equivalent |
 
----
-
 ## Summary
 
 | Level    | Count | Notes                                                                   |
@@ -265,7 +255,9 @@ Several recurring coherence issues appear across categories:
 - **Overlap**: Trace / Track; Correlate / Co-vary / Relate; Show Proportion / Apportion / Compose; Estimate / Approximate; Isolate / Trim / Eliminate all cover essentially the same ground.
 - **Over-broad terms**: Transform, Distribute, Display, Customize, and Assign are placeholders for entire categories, not discrete operations.
 - **False atomics**: Characterize Distribution and Find Anomalies feel atomic in intent but require multiple function calls in practice.
-- 
+
+## Comprehensive matrix
+  
 | Level | Mutate | Compute | Analyze | Compose | Communicate |
 | --- | --- | --- | --- | --- | --- |
 | **Meta** | | | | | Ideate · Develop · Solve · Communicate · Narrate · Convey a Message · Diagnose · Prescribe · Assess · Adapt · Maintain · Suggest · Reveal · Showcase · Relay · Elicit |
@@ -273,8 +265,12 @@ Several recurring coherence issues appear across categories:
 | **Compound** | Clean | Summarize · Show Partition | Characterize Distribution · Categorical Relationship · Find Anomalies · Forecast | Magnify | Emphasize · Monitor |
 | **Atomic** | Normalize · Sort · Combine · Reshape · Deduplicate · Transpose · Map · Declare · Impute · Interpolate · Sample · Encode · Bin · Reduce · Isolate · Slice · Trim · Select · Retrieve Value · Rank · Reorder | Aggregate · Compute Derived Value · Apply linear regression · Transform (Statistical) · Show Proportion · Show Volume · Apportion | Determine Range · Juxtapose · Align · Categorize · Connect · Cluster · Correlate · Co-vary · Find Extremum · Eliminate · Track · Trace · Accumulate · Smooth · Resample · Decompose | Subplot · Localize · Widen · Zoom · Rotate · Autosize · Size Proportionally · Layer · Color · Recolor · Gradient · Weight · Scale · Label · Annotate · Map (visual) · Draw · Style · Legend | Captions · Interpolate |
 
-- Mutate — Data Preparation, Filtering & Selection, Ordering & Ranking
-- Compute — Summarization & Aggregation, Part-Whole Decomposition
-- Analyze — Distribution & Shape, Comparison, Relationship & Correlation, Anomaly & Extremum Detection, Temporal Analysis
-- Compose — Visual Layout, Visual Encoding
-- Communicate — Communication & Narrative, Exploration & Inference, Analyst Process
+**Column key:**
+
+_Column names refer to groups of action types, reduced for purposes of visualization._
+
+- **Mutate**: Data Preparation, Filtering & Selection, Ordering & Ranking.
+- **Compute**: Summarization & Aggregation, Part-Whole Decomposition.
+- **Analyze**: Distribution & Shape, Comparison, Relationship & Correlation, Anomaly & Extremum Detection, Temporal Analysis.
+- **Compose**: Visual Layout, Visual Encoding.
+- **Communicate**: Communication & Narrative, Exploration & Inference, Analyst Process.
