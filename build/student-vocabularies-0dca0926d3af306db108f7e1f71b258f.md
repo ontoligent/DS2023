@@ -162,7 +162,7 @@ subtitle: DS 2023 | Communicating with Data
 
 | Term             | Count | Definition                                                           | Synonyms |
 | ---------------- | ----: | -------------------------------------------------------------------- | -------- |
-| Simplify :star:  |     6 | Reduce a visualization to a single clear message                     |          |
+| Simplify |     6 | Reduce a visualization to a single clear message                     |          |
 | Communicate      |     1 | Present information in a form that is clear to the intended audience |          |
 | Narrate          |     1 | Guide the viewer through a sequence of insights                      |          |
 | Engage           |     1 | Use design choices to capture the audience's attention               |          |
