@@ -7,6 +7,23 @@ subtitle: DS 2023 | Communicating with Data
 
 This notebook describes how to convert our insights about actions and trails into the design of dashboards and other compositional data visualizations. 
 
+## Actions and Trails
+
+A trail is a **sequence of actions** that leads to a **discovery**.
+
+- Technically: it ends in a _discovery event_.
+
+Ideally, a data visualization platform would record these trails.
+
+- Jupyter notebooks do this already (to some extent).
+
+- Something like a clickstream for a website.
+
+A dashboard should support trails of actions.
+
+## Example
+
+
 ## The Translation Rules
 
 The key insight is that **the levels we used to classify the intent of an action translate into specific kinds of visual elements**. 
@@ -32,7 +49,7 @@ Given this mapping, we can represent a trail as movement through both steps and 
 | Compound | **Panel** — a chart the user reads |
 | Meta (end) | **Insight callout** — an annotation overlay or text block |
 
-![](trail-chart.png)
+![](images/trail-chart.png)
 
 The Abstract level is the interesting case.
 
@@ -54,7 +71,7 @@ If step 3 (Bin) produces the `tier` variable used by step 7 (Characterize Distri
 the tier checkbox widget belongs above the box plot panel.
 The trail makes that dependency explicit; the dashboard layout follows from it.
 
-![](dashboard-wireframe.png)
+![](images/dashboard-wireframe.png)
 
 ## Oscillation and Interaction Depth
 

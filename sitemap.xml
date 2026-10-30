@@ -110,13 +110,10 @@
     <loc>http://localhost:3000/penguins-dashboard</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/task-abstraction</loc>
+    <loc>http://localhost:3000/m08-01-taskabstraction</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/visualization-vocabulary</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/amar-2005-taxonomy-ds</loc>
+    <loc>http://localhost:3000/m08-02-visualizationvocabulary</loc>
   </url>
   <url>
     <loc>http://localhost:3000/student-vocabularies-consolidated</loc>
@@ -125,6 +122,6 @@
     <loc>http://localhost:3000/student-vocabularies-ontology</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/trails-and-dashboard-design</loc>
+    <loc>http://localhost:3000/m08-03-trailstodashboards</loc>
   </url>
 </urlset>
