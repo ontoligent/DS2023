@@ -130,4 +130,7 @@
   <url>
     <loc>http://localhost:3000/house-midterm-votes</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/nightingale</loc>
+  </url>
 </urlset>
