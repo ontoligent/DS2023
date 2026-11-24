@@ -133,4 +133,7 @@
   <url>
     <loc>http://localhost:3000/nightingale</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/claudis-nightingale-rose</loc>
+  </url>
 </urlset>
